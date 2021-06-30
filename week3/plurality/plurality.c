@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
 }
 
 // Update vote totals given a new vote
-bool vote(char name[30])
+bool vote(char *name)
 {
     bool result = false; //return value
 
